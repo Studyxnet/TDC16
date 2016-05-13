@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.Trilha">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<StackLayout x:Name="quarta" IsVisible="false">
+					<Label Text="QUARTA | 11/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource trilhaVermelha}" Text="JAVA EE" Command="{Binding TrilhaCmd}" CommandParameter="1" />
+					<Button Style="{StaticResource trilhaLaranja}" Text="ANÁLISE DE NEGÓCIOS" Command="{Binding TrilhaCmd}" CommandParameter="2" />
+					<Button Style="{StaticResource trilhaAmarela}" Text="WEB" Command="{Binding TrilhaCmd}" CommandParameter="3" />
+					<Button Style="{StaticResource trilhaMusgo}" Text="CLOUD COMPUTING" Command="{Binding TrilhaCmd}" CommandParameter="4" />
+					<Button Style="{StaticResource trilhaVerde}" Text="MARKETIN DIGITAL" Command="{Binding TrilhaCmd}" CommandParameter="5" />
+					<Button Style="{StaticResource trilhaCiano}" Text="BIG DATA" Command="{Binding TrilhaCmd}" CommandParameter="6" />
+					<Button Style="{StaticResource trilhaAzul}" Text="PHP" Command="{Binding TrilhaCmd}" CommandParameter="7" />
+					<Button Style="{StaticResource trilhaVioleta}" Text="XAMARIN" Command="{Binding TrilhaCmd}" CommandParameter="8" />
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM" Command="{Binding TrilhaCmd}" CommandParameter="9" />
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM INTEL" Command="{Binding TrilhaCmd}" CommandParameter="10" />
+				</StackLayout>
+				<StackLayout x:Name="quinta" IsVisible="false">
+					<Label Text="QUINTA | 12/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource trilhaVermelha}" Text="ARQUITETURA" Command="{Binding TrilhaCmd}" CommandParameter="11" />
+					<Button Style="{StaticResource trilhaLaranja}" Text="MANAGEMENT 3.0" Command="{Binding TrilhaCmd}" CommandParameter="12" />
+					<Button Style="{StaticResource trilhaAmarela}" Text="JAVASCRIPT" Command="{Binding TrilhaCmd}" CommandParameter="13" />
+					<Button Style="{StaticResource trilhaMusgo}" Text="DEVOPS" Command="{Binding TrilhaCmd}" CommandParameter="14" />
+					<Button Style="{StaticResource trilhaVerde}" Text="IOS" Command="{Binding TrilhaCmd}" CommandParameter="15" />
+					<Button Style="{StaticResource trilhaCiano}" Text="PYTHON" Command="{Binding TrilhaCmd}" CommandParameter="16" />
+					<Button Style="{StaticResource trilhaAzul}" Text="DIGITAL TRANSFORMATION" Command="{Binding TrilhaCmd}" CommandParameter="17" />
+					<!--					<Button Style="{StaticResource trilhaVioleta}" Text="-" />-->
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM" Command="{Binding TrilhaCmd}" CommandParameter="18" />
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM INTEL" Command="{Binding TrilhaCmd}" CommandParameter="19" />
+				</StackLayout>
+				<StackLayout x:Name="sexta" IsVisible="false">
+					<Label Text="SEXTA | 13/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource trilhaVermelha}" Text=".NET" Command="{Binding TrilhaCmd}" CommandParameter="20" />
+					<Button Style="{StaticResource trilhaLaranja}" Text="AGILE" Command="{Binding TrilhaCmd}" CommandParameter="21" />
+					<Button Style="{StaticResource trilhaAmarela}" Text="UX DESIGN" Command="{Binding TrilhaCmd}" CommandParameter="22" />
+					<Button Style="{StaticResource trilhaMusgo}" Text="TESTES" Command="{Binding TrilhaCmd}" CommandParameter="23" />
+					<Button Style="{StaticResource trilhaVerde}" Text="ANDROID" Command="{Binding TrilhaCmd}" CommandParameter="24" />
+					<Button Style="{StaticResource trilhaCiano}" Text="NOSQL" Command="{Binding TrilhaCmd}" CommandParameter="25" />
+					<Button Style="{StaticResource trilhaAzul}" Text="SMART CITIES" Command="{Binding TrilhaCmd}" CommandParameter="26" />
+					<!--					<Button Style="{StaticResource trilhaVioleta}" Text="-" />-->
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM" Command="{Binding TrilhaCmd}" CommandParameter="27" />
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM INTEL" Command="{Binding TrilhaCmd}" CommandParameter="28" />
+				</StackLayout>
+				<StackLayout x:Name="sabado" IsVisible="false">
+					<Label Text="SABÁDO | 14/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource trilhaVermelha}" Text="JAVA" Command="{Binding TrilhaCmd}" CommandParameter="29" />
+					<Button Style="{StaticResource trilhaLaranja}" Text="STARTUPS" Command="{Binding TrilhaCmd}" CommandParameter="30" />
+					<Button Style="{StaticResource trilhaAmarela}" Text="DESIGN THINKING" Command="{Binding TrilhaCmd}" CommandParameter="31" />
+					<Button Style="{StaticResource trilhaMusgo}" Text="RUBY" Command="{Binding TrilhaCmd}" CommandParameter="32" />
+					<Button Style="{StaticResource trilhaVerde}" Text="MOBILE" Command="{Binding TrilhaCmd}" CommandParameter="33" />
+					<Button Style="{StaticResource trilhaCiano}" Text="PROGRAMAÇÃO FUNCIONAL" Command="{Binding TrilhaCmd}" CommandParameter="34" />
+					<Button Style="{StaticResource trilhaAzul}" Text="INTERNET DAS COISAS" Command="{Binding TrilhaCmd}" CommandParameter="35" />
+					<Button Style="{StaticResource trilhaVioleta}" Text="TDC4KIDS" Command="{Binding TrilhaCmd}" CommandParameter="36" />
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM" Command="{Binding TrilhaCmd}" CommandParameter="37" />
+					<Button Style="{StaticResource trilhaPreta}" Text="STADIUM INTEL" Command="{Binding TrilhaCmd}" CommandParameter="38" />
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

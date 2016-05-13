@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.App">
+	<Application.Resources>
+		<ResourceDictionary>
+			<Color x:Key="bgColor">Black</Color>
+			<x:String x:Key="TrilhasTitle">Trilhas</x:String>
+			<x:String x:Key="WorkshopTitle">Workshops</x:String>
+			<Style TargetType="Label">
+				<Setter Property="TextColor" Value="Black" />
+			</Style>
+      <Style TargetType="Page">
+        <Setter Property="BackgroundColor" Value="White" />
+      </Style>
+      <Style TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="White" />
+      </Style>
+			<Style x:Key="lblNomes" TargetType="Label">
+				<Setter Property="FontSize" Value="12" />
+				<Setter Property="TextColor" Value="Black" />
+			</Style>
+			<Style TargetType="Entry">
+				<!--				<Setter Property="BackgroundColor" Value="Red" />-->
+				<!--				<Setter Property="PlacheHolderColor" Value="Black" />-->
+			</Style>
+			<Style TargetType="StackLayout">
+				<Setter Property="Padding" Value="10,10,10,10" />
+			</Style>
+			<Style x:Key="trilhaButton" TargetType="Button">
+				<Setter Property="TextColor" Value="White" />
+				<Setter Property="BorderColor" Value="Transparent" />
+			</Style>
+			<Style x:Key="trilhaVermelha" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#EB0029" />
+			</Style>
+			<Style x:Key="trilhaLaranja" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#E04600" />
+			</Style>
+			<Style x:Key="trilhaAmarela" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#D39815" />
+			</Style>
+			<Style x:Key="trilhaMusgo" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#C4D600" />
+			</Style>
+			<Style x:Key="trilhaVerde" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#009944" />
+			</Style>
+			<Style x:Key="trilhaCiano" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#0084BD" />
+			</Style>
+			<Style x:Key="trilhaAzul" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#004A97" />
+			</Style>
+			<Style x:Key="trilhaVioleta" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#442734" />
+			</Style>
+			<Style x:Key="trilhaPreta" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#1C1C1C" />
+			</Style>
+			<Style x:Key="workshopButton" BasedOn="{StaticResource trilhaButton}" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#8A4B2B" />
+			</Style>
+			<Style x:Key="labelInfo" TargetType="Label">
+				<Setter Property="FontSize" Value="10" />
+				<Setter Property="TextColor" Value="Gray" />
+			</Style>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="AVALIAR EVENTO" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.FeedbackEvento">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Label Style="{StaticResource labelInfo}" Text="Sua avaliação é de extrema importância para o crescimento costante do #TheDevConf. Preecha os campos abaixo com sua real opnião." />
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="100*" />
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+					</Grid.RowDefinitions>
+					<Label Grid.Row="0" Text="O Evento*" />
+					<StackLayout Grid.Row="1">
+						<Picker x:Name="pkEvento" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Row="2" Text="Networking no evento*" />
+					<StackLayout Grid.Row="3">
+						<Picker x:Name="pkENetworking" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Row="4" Text="Organização geral*" />
+					<StackLayout Grid.Row="5">
+						<Picker x:Name="pkOrg" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Row="6" Text="Alimentação*" />
+					<StackLayout Grid.Row="7">
+						<Picker x:Name="pkAlimentacao" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Row="8" Text="Custo beneficio*" />
+					<StackLayout Grid.Row="9">
+						<Picker x:Name="pkCusto" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Button Clicked="salvarClick" Grid.Row="10" Text="SALVAR" Style="{StaticResource trilhaCiano}" />
+				</Grid>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

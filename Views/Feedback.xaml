@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="{Binding Nome}" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.Feedback">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Label Style="{StaticResource labelInfo}" Text="Sua avaliação é de extrema importância para o crescimento costante do #TheDevConf. Preecha os campos abaixo com sua real opnião." />
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="7*" />
+						<ColumnDefinition Width="3*" />
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+					</Grid.RowDefinitions>
+					<Label Text="Você gostou desta trilha?" Grid.Row="0" Grid.Column="0" TextColor="Black" />
+					<Switch Grid.Row="0" Grid.Column="1" IsToggled="{Binding Gostou}" />
+					<Editor Text="{Binding Observacao}" Grid.Row="1" Grid.ColumnSpan="2" MinimumHeightRequest="60" FontSize="12" />
+					<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Text="Conteúdo das palestras*" />
+					<StackLayout Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
+						<Picker x:Name="pkConteudo" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Text="Apresentação das palestras*" />
+					<StackLayout Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="5">
+						<Picker x:Name="pkApresentacao" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="6" Text="Postura dos palestrantes*" />
+					<StackLayout Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="7">
+						<Picker x:Name="pkPalestrante" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="8" Text="Postura dos coordenadores*" />
+					<StackLayout Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="9">
+						<Picker x:Name="pkCoordenador" Title="Selecione">
+							<Picker.Items>
+								<x:String>Ótimo</x:String>
+								<x:String>Bom</x:String>
+								<x:String>Normal</x:String>
+								<x:String>Ruim</x:String>
+								<x:String>Pessímo</x:String>
+							</Picker.Items>
+						</Picker>
+					</StackLayout>
+					<Button Clicked="salvarClick" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="10" Text="SALVAR" Style="{StaticResource trilhaCiano}" />
+				</Grid>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

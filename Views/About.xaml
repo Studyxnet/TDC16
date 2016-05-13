@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="SOBRE" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.About">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="25*" />
+						<ColumnDefinition Width="25*" />
+						<ColumnDefinition Width="25*" />
+						<ColumnDefinition Width="25*" />
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+						<RowDefinition Height="Auto" />
+					</Grid.RowDefinitions>
+					<Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalTextAlignment="Center" Text="OS DESENVOLVEDORES" />
+					<Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" Text="RAFAEL MOURA" Style="{StaticResource lblNomes}" />
+					<Label Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" Text="VALERIO FERREIRA" Style="{StaticResource lblNomes}" />
+					<Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" Text="/rafaelrmou" Style="{StaticResource lblNomes}" />
+					<Label Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" Text="/valerioferreira" Style="{StaticResource lblNomes}" />
+					<Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" Text="@studyxnet" Style="{StaticResource lblNomes}" />
+					<Label Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" Text="@netcoders" Style="{StaticResource lblNomes}" />
+					<Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" HorizontalTextAlignment="Center" Text="http://studyxnet.com.br" />
+				</Grid>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

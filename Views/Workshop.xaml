@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.Workshop">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<StackLayout x:Name="quarta" IsVisible="false">
+					<Label Text="QUARTA | 11/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource workshopButton}" Text="GAMIFICAÇÃO NA PRÁTICA" />
+					<Button Style="{StaticResource workshopButton}" Text="HISTÓRIAS DE USUÁRIO" />
+				</StackLayout>
+				<StackLayout x:Name="quinta" IsVisible="false">
+					<Label Text="QUINTA | 12/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource workshopButton}" Text="TRABALHANDO COM REQUISITOS ÁGEIS" />
+					<Button Style="{StaticResource workshopButton}" Text="PLANEJAMENTO ÁGIL DE RELEASES" />
+					<Button Style="{StaticResource workshopButton}" Text="DESIGN THINKING" />
+				</StackLayout>
+				<StackLayout x:Name="sexta" IsVisible="false">
+					<Label Text="SEXTA | 13/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource workshopButton}" Text="DOCKER BÁSICO" />
+					<Button Style="{StaticResource workshopButton}" Text="ENTREGA CONTÍNUA COM AWS" />
+					<Button Style="{StaticResource workshopButton}" Text="WEARABLES" />
+				</StackLayout>
+				<StackLayout x:Name="sabado" IsVisible="false">
+					<Label Text="SABÁDO | 14/05" TextColor="Black" HorizontalTextAlignment="Center" />
+					<Button Style="{StaticResource workshopButton}" Text="NODE JS" />
+					<Button Style="{StaticResource workshopButton}" Text="TESTES AUTOMATIZADOS PARA DESENV. .NET" />
+					<Button Style="{StaticResource workshopButton}" Text="AUTOMAÇÃO DE TESTES PARA REST, WEB E MOBILE" />
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Patrocinadores" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.Patrocinadores">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<StackLayout>
+					<Label Text="DIAMOND" HorizontalTextAlignment="Center" />
+					<Grid ColumnSpacing="12" RowSpacing="12">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="5*" />
+							<ColumnDefinition Width="5*" />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+						<Image Grid.Row="0" Grid.Column="0" Source="locaweb.png" />
+						<Image Grid.Row="0" Grid.Column="1" Source="amazon.png" />
+						<Image Grid.Row="1" Grid.Column="0" Source="uolhost.png" />
+						<Image Grid.Row="1" Grid.Column="1" Source="flin.png" />
+						<Image Grid.Row="2" Grid.Column="0" Source="oracle.png" />
+						<Image Grid.Row="2" Grid.Column="1" Source="redhat.png" />
+					</Grid>
+				</StackLayout>
+				<StackLayout>
+					<Label Text="GOLD" HorizontalTextAlignment="Center" />
+					<Grid ColumnSpacing="12" RowSpacing="12">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="5*" />
+							<ColumnDefinition Width="5*" />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+						<Image Grid.Row="0" Grid.Column="0" Source="archtouch.png" />
+						<Image Grid.Row="0" Grid.Column="1" Source="resultadosDigitais.png" />
+					</Grid>
+				</StackLayout>
+				<StackLayout>
+					<Label Text="SILVER" HorizontalTextAlignment="Center" />
+					<Grid ColumnSpacing="12" RowSpacing="12">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="1*" />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+						<Image Grid.Row="0" Grid.Column="0" Source="intel.png" />
+					</Grid>
+				</StackLayout>
+				<StackLayout>
+					<Label Text="APOIO" HorizontalTextAlignment="Center" />
+					<Grid ColumnSpacing="12" RowSpacing="12">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="5*" />
+							<ColumnDefinition Width="5*" />
+							<ColumnDefinition Width="5*" />
+							<ColumnDefinition Width="5*" />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+						<Image Grid.Row="0" Grid.Column="1" Source="acate.png" />
+						<Image Grid.Row="0" Grid.Column="2" Source="umovme.png" />
+						<Image Grid.Row="1" Grid.Column="1" Source="contazul.png" />
+						<Image Grid.Row="1" Grid.Column="2" Source="dialeto.png" />
+						<Image Grid.Row="2" Grid.Column="1" Source="gemalto.png" />
+					</Grid>
+				</StackLayout>
+				<StackLayout>
+					<Label Text="REALIZAÇÃO" HorizontalTextAlignment="Center" />
+					<Grid ColumnSpacing="12" RowSpacing="12">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="5*" />
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="Auto" />
+						</Grid.RowDefinitions>
+						<Image Grid.Row="0" Grid.Column="0" Source="office.png" />
+						<Image Grid.Row="1" Grid.Column="0" Source="globalcode.png" />
+
+					</Grid>
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

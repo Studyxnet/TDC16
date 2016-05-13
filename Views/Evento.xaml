@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TDC2016.Evento">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Image Source="logo-tdc.png" HeightRequest="120" />
+				<Label Text="THE DEVELOPERS CONFERENCE" HorizontalTextAlignment="Center" />
+				<Label Text="2016" HorizontalTextAlignment="Center" />
+				<Button Style="{StaticResource trilhaVerde}" Text="AVALIE O EVENTO"  Clicked="avEvento_Clicked"/>
+				<Button Style="{StaticResource trilhaCiano}" Text="ENVIE UMA MENSAGEM" />
+				<Button Style="{StaticResource trilhaAzul}" Text="OS PATROCINADORES" Clicked="avPatroc_Clicked"/>
+				<Button Style="{StaticResource trilhaVioleta}" Text="LOCAIS PROXIMOS" />
+				<Button Style="{StaticResource trilhaPreta}" Text="SOBRE O APP" Clicked="about_Clicked"/>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
